@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.cont-img img {
+    width: 400px;
+    max-height: 200px; 
+}
+
+.info img {
+    max-width: 150px;
+    max-height: 200px;
+    border: #3882f6 solid;
+    border-radius: 10px;
+}
+
+.top-nav, .content {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    gap: 16px;
+    align-items: baseline;
+    padding: 0 100px 48px;
+}
+.logo {
+    margin-right: auto;
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 250px;
+    justify-content: space-between;
+    margin:auto 0 0
+}
+
+.content .cont1 {
+    font-size: 48px; 
+    font-weight:900; 
+    color: #f9faf8;
+}
+
+.cont1, .cont2{
+    width: 400px;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0 100px 48px;
+    margin: 30px 0px;
+}
+.content-mid {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.info {
+    max-width: 200px;
+}
+
+.quotemsg {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 100px 100px 0px;
+    font-style: italic;
+  }
+
+  .bythor {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 0px 100px 75px;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Signup {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #3882f6;
+    justify-content: center;
+    border-radius: 5px;
+    color: #e5e7eb;
+    font-size: 14px;
+    width: 600px;
+    max-height: 50px;
+    padding: 30px 75px 30px;
+    margin: 50px 0px 50px;
+  }
+
+  .Signup button {
+    border: #e5e7eb solid;
+    flex: 1 1 auto;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 10px;
+    padding: 30px;
+  }
